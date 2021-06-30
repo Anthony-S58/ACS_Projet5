@@ -1,6 +1,6 @@
 <?php
     try{
-        $dbh = new pdo('mysql:host=promo-72.codeur.online;dbname=anthonys787_Projet5','anthonys787','4nHI4LlNyi64jA==',array(
+        $dbh = new pdo('mysql:host=promo-72.codeur.online;dbname=anthonys787_Projet5','anthonys787','',array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         ));
 

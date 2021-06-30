@@ -29,7 +29,7 @@ if(isset($_SESSION['connecte'])){
 if(isset($_POST['pseudo']) && isset($_POST['pass']))
 {
    if($_POST['pseudo'] == 'admin'){
-        if($_POST['pass'] == 'mdp123'){
+        if($_POST['pass'] == ''){
             $_SESSION["connecte"] = true;
             header("Location: ./admin.php");
         } echo "mot de passe inccorect";
