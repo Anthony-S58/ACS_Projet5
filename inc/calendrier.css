@@ -1,0 +1,36 @@
+    td.rouge{
+color:white!important;
+background:#a10101!important;
+}
+td{
+color:rgb(0, 0, 0);
+/* background:green; */
+}
+tr{text-align:center;}
+td, tr{
+margin:0;
+}
+th{
+/* color:blue; */
+width:55px;
+}
+table{
+ border-collapse: collapse;
+border: 1px solid black;
+}
+#calendrier{
+    margin-top: -23px;
+}
+td.inactif{
+    color:grey;
+    background: rgba(0, 0, 0, 0.507);
+}
+td.firstDayNextMonth{
+    color:white;
+    /* background:blue; */
+}
+td.today{
+    color:rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.459);
+    border: 2px solid blue;
+}
